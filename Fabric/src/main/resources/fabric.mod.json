@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
   "id": "erodingstoneentities",
-  "version": "4.3",
+  "version": "4.4",
 
   "name": "Eroding Stone Entities",
   "description": "When stone-type entities are left in flowing water for some time they turn into sand.",
   "authors": [ "Rick South" ],
   "contact": {
-    "homepage": "https://curseforge.com/minecraft/mc-mods/eroding-stone-entities",
-    "sources": "https://github.com/ricksouth/serilum-mc-mod-sources/tree/main/sources/Eroding%20Stone%20Entities",
-    "issues": "https://github.com/ricksouth/serilum-mc-mods/labels/Mod:%20Eroding%20Stone%20Entities"
+    "homepage": "https://serilum.com/mod/eroding-stone-entities",
+    "sources": "https://github.com/Serilum/Eroding-Stone-Entities",
+    "issues": "https://github.com/Serilum/.issue-tracker/labels/Mod:%20Eroding%20Stone%20Entities"
   },
 
   "license": "All Right Reserved",
@@ -23,7 +23,7 @@
     "fabric": "*",
     "minecraft": ">=1.20",
     "java": ">=17",
-    "collective": ">=7.3"
+    "collective": ">=7.21"
   },
 
   "custom": {
