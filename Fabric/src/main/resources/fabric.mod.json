@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "erodingstoneentities",
-  "version": "4.5",
+  "version": "4.6",
 
   "name": "Eroding Stone Entities",
   "description": "When stone-type entities are left in flowing water for some time they turn into sand.",
@@ -23,7 +23,7 @@
     "fabric": "*",
     "minecraft": ">=1.20",
     "java": ">=21",
-    "collective": ">=7.55"
+    "collective": ">=7.78"
   },
 
   "custom": {
@@ -44,12 +44,9 @@
 	  " Alister",
 	  " Andrean Olgo",
 	  " aternosorg",
-	  " BirdieMiner",
 	  " Cherriesaurus",
-	  " Jack",
-	  " Jeremy Langford",
 	  " Michael W. S.",
-	  " pepe1191",
+	  " Nahuel Fernandez",
 	  " Shana Gitnick",
 	  " Tyler Behl"
   ]
