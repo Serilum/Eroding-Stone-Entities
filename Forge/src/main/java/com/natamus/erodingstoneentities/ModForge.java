@@ -34,7 +34,7 @@ public class ModForge {
 
 	private void loadComplete(final FMLLoadCompleteEvent event) {
     	if (Util.populateArrays()) {
-    		MinecraftForge.EVENT_BUS.register(new ForgeErodingEvent());
+    		MinecraftForge.EVENT_BUS.register(ForgeErodingEvent.class);
     	}
 	}
 
