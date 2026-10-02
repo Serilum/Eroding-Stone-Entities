@@ -1,7 +1,7 @@
-package com.natamus.erodingstoneentities.config;
+package com.serilum.erodingstoneentities.config;
 
 import com.natamus.collective.config.DuskConfig;
-import com.natamus.erodingstoneentities.util.Reference;
+import com.serilum.erodingstoneentities.util.Reference;
 
 import java.util.Arrays;
 import java.util.HashMap;

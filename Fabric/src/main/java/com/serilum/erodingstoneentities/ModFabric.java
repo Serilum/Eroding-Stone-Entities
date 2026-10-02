@@ -1,10 +1,10 @@
-package com.natamus.erodingstoneentities;
+package com.serilum.erodingstoneentities;
 
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
-import com.natamus.erodingstoneentities.events.ErodingEvent;
-import com.natamus.erodingstoneentities.util.Reference;
-import com.natamus.erodingstoneentities.util.Util;
+import com.serilum.erodingstoneentities.events.ErodingEvent;
+import com.serilum.erodingstoneentities.util.Reference;
+import com.serilum.erodingstoneentities.util.Util;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.event.lifecycle.v1.ServerEntityEvents;
 import net.fabricmc.fabric.api.event.lifecycle.v1.ServerTickEvents;

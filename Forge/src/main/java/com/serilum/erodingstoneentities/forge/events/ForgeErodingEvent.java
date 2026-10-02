@@ -1,6 +1,6 @@
-package com.natamus.erodingstoneentities.forge.events;
+package com.serilum.erodingstoneentities.forge.events;
 
-import com.natamus.erodingstoneentities.events.ErodingEvent;
+import com.serilum.erodingstoneentities.events.ErodingEvent;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.world.level.Level;
 import net.minecraftforge.event.TickEvent.LevelTickEvent;

@@ -1,7 +1,7 @@
-package com.natamus.erodingstoneentities.forge.config;
+package com.serilum.erodingstoneentities.forge.config;
 
 import com.natamus.collective.config.DuskConfig;
-import com.natamus.erodingstoneentities.util.Reference;
+import com.serilum.erodingstoneentities.util.Reference;
 import net.minecraftforge.client.ConfigScreenHandler;
 import net.minecraftforge.fml.ModLoadingContext;
 

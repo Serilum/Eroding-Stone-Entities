@@ -1,6 +1,6 @@
-package com.natamus.erodingstoneentities.util;
+package com.serilum.erodingstoneentities.util;
 
-import com.natamus.erodingstoneentities.config.ConfigHandler;
+import com.serilum.erodingstoneentities.config.ConfigHandler;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.entity.Entity.RemovalReason;

@@ -1,7 +1,7 @@
-package com.natamus.erodingstoneentities.events;
+package com.serilum.erodingstoneentities.events;
 
-import com.natamus.erodingstoneentities.config.ConfigHandler;
-import com.natamus.erodingstoneentities.util.Util;
+import com.serilum.erodingstoneentities.config.ConfigHandler;
+import com.serilum.erodingstoneentities.util.Util;
 import net.minecraft.core.BlockPos;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.world.entity.Entity;

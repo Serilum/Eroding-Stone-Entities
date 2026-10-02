@@ -1,6 +1,6 @@
-package com.natamus.erodingstoneentities;
+package com.serilum.erodingstoneentities;
 
-import com.natamus.erodingstoneentities.config.ConfigHandler;
+import com.serilum.erodingstoneentities.config.ConfigHandler;
 
 public class ModCommon {
 
