@@ -86,7 +86,7 @@ public class ErodingEvent {
 		
 		ItemEntity ie = (ItemEntity)entity;
 		ItemStack stack = ie.getItem();
-		if (!Util.erodeinto.containsKey(stack.getItem())) {
+		if (Util.getErodeIntoItem(stack.getItem()) == null) {
 			return;
 		}
 		
