@@ -5,7 +5,6 @@ import com.natamus.collective.check.ShouldLoadCheck;
 import com.serilum.erodingstoneentities.neoforge.config.IntegrateNeoForgeConfig;
 import com.serilum.erodingstoneentities.neoforge.events.NeoForgeErodingEvent;
 import com.serilum.erodingstoneentities.util.Reference;
-import com.serilum.erodingstoneentities.util.Util;
 import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.ModLoadingContext;
@@ -31,9 +30,7 @@ public class ModNeoForge {
 	}
 
 	private void loadComplete(final FMLLoadCompleteEvent event) {
-		if (Util.populateArrays()) {
-			NeoForge.EVENT_BUS.register(NeoForgeErodingEvent.class);
-		}
+		NeoForge.EVENT_BUS.register(NeoForgeErodingEvent.class);
 	}
 
 	private static void setGlobalConstants() {
