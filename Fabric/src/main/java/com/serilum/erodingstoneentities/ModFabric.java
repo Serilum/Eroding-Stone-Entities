@@ -4,7 +4,6 @@ import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
 import com.serilum.erodingstoneentities.events.ErodingEvent;
 import com.serilum.erodingstoneentities.util.Reference;
-import com.serilum.erodingstoneentities.util.Util;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.event.lifecycle.v1.ServerEntityEvents;
 import net.fabricmc.fabric.api.event.lifecycle.v1.ServerTickEvents;
@@ -28,15 +27,13 @@ public class ModFabric implements ModInitializer {
 	}
 
 	private void loadEvents() {
-		if (Util.populateArrays()) {
-			ServerTickEvents.START_LEVEL_TICK.register((ServerLevel world) -> {
-				ErodingEvent.onWorldTick(world);
-			});
+		ServerTickEvents.START_LEVEL_TICK.register((ServerLevel world) -> {
+			ErodingEvent.onWorldTick(world);
+		});
 
-			ServerEntityEvents.ENTITY_LOAD.register((Entity entity, ServerLevel world) -> {
-				ErodingEvent.onEntityJoin(world, entity);
-			});
-		}
+		ServerEntityEvents.ENTITY_LOAD.register((Entity entity, ServerLevel world) -> {
+			ErodingEvent.onEntityJoin(world, entity);
+		});
 	}
 
 	private static void setGlobalConstants() {

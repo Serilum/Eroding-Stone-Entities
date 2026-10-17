@@ -5,7 +5,6 @@ import com.natamus.collective.check.ShouldLoadCheck;
 import com.serilum.erodingstoneentities.forge.config.IntegrateForgeConfig;
 import com.serilum.erodingstoneentities.forge.events.ForgeErodingEvent;
 import com.serilum.erodingstoneentities.util.Reference;
-import com.serilum.erodingstoneentities.util.Util;
 import net.minecraftforge.eventbus.api.bus.BusGroup;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLLoadCompleteEvent;
@@ -31,9 +30,7 @@ public class ModForge {
 	}
 
 	private void loadComplete(final FMLLoadCompleteEvent event) {
-		if (Util.populateArrays()) {
-			ForgeErodingEvent.registerEventsInBus();
-		}
+		ForgeErodingEvent.registerEventsInBus();
 	}
 
 	private static void setGlobalConstants() {
